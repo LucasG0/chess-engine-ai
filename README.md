@@ -40,7 +40,7 @@ Exemple :
 
 # Chess AI
 
-## Description
+## Description
 
 This chess AI has been developped according to Alpha Zero algorithm.
 Information about algorithm mechanism are well detailled in [DeepMind's original paper](https://www.nature.com/articles/nature24270.epdf?author_access_token=VJXbVjaSHxFoctQQ4p2k4tRgN0jAjWel9jnR3ZoTv0PVW4gB86EEpGqTRDtpIz-2rmo8-KG06gqVobU5NSCFeHILHcVFUeMsbvwS-lxjqQGg98faovwjxeTUgZAUMnRQ).
@@ -48,21 +48,18 @@ Based on deep reinforcement learning, it combines Monte Carlo Tree Search with a
 My neural network is smaller than Alpha Zero's one, and does not use residual network.
 It has not been trained yet due to a lack of computation power.
 
-## How to run it ?
+## How to run it ?
 
 From the folder containing the "chess" folder, type in shell :
 
 python -m chess.bot.train
 
-However, if you do want to train it, I recommend to use [python-chess-master],
-a free chess api strongly optimized, as mine was not designed for.
+As my engine was not designed for, if you do want to train it, I recommend to use [this chess engine](https://github.com/niklasf/python-chess), which is free and strongly optimized.
 
-## Requirements
+## Requirements
 
 - Python 3.5.2
 - Numpy
 - Keras
 - Tensorflow
 - Colorama (on Windows)
-
-Note : You wil need Python 3.5.3 if you use [python-chess-master] for training.
