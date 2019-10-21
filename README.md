@@ -1,4 +1,4 @@
-# Chess Engine
+# Chess Engine
 
 ## Description
 
