@@ -13,10 +13,10 @@ Supported moves :
 The program ends when the game is over.
 
 Supported ends :
-    - Checkmate.
-    - Slatemate.
-    - Fifty moves rule.
-    - Threefold repetitions rule.
+ - Checkmate.
+ - Slatemate.
+ - Fifty moves rule.
+ - Threefold repetitions rule.
 
 The engine has been tested on 6k games, from Lichess Data Set.
 
