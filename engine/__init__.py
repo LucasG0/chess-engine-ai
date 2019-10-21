@@ -1,2 +1,2 @@
-import chess.engine.config
-import chess.engine.pieces
+import engine.config
+import engine.pieces

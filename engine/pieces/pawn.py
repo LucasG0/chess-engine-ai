@@ -1,5 +1,5 @@
-from chess.engine.position import Position
-from chess.engine.pieces.piece import Piece
+from engine.position import Position
+from engine.pieces.piece import Piece
 
 class Pawn(Piece):
     def __init__(self, color):

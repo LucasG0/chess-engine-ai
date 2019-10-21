@@ -1,9 +1,9 @@
 import math
 import random
 import copy
-from chess.engine.config import Config
-from chess.engine.utils import *
-from chess.bot.neural_network import *
+from engine.config import Config
+from engine.utils import *
+from bot.neural_network import *
 
 # Represents Monte Carlo Tree Search Node, defined by a game configuration.
 class Node:

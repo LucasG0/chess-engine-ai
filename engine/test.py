@@ -1,5 +1,5 @@
-from chess.engine.config import Config
-from chess.engine.utils import *
+from engine.config import Config
+from engine.utils import *
 import csv
 
 # Play around 6k check mate games to test chess engine.

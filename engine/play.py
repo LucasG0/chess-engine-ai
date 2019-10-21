@@ -1,5 +1,5 @@
-from chess.engine.config import Config
-from chess.engine.utils import *
+from engine.config import Config
+from engine.utils import *
 
 def play():
     config = Config()

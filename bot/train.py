@@ -1,8 +1,8 @@
 import numpy as np
-from chess.engine.config import Config
-from chess.bot.mcts import MCTS
-from chess.engine.config import Config
-from chess.engine.utils import *
+from engine.config import Config
+from bot.mcts import MCTS
+from engine.config import Config
+from engine.utils import *
 
 def train():
     config = Config()

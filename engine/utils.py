@@ -1,7 +1,10 @@
-from chess.engine.position import Position
+from engine.position import Position
 from termcolor import colored
-import colorama
 import numpy as np
+from sys import platform
+if platform == "win32":
+    import colorama
+    colorama.init()
 
 def number(char):
     if char == 'a':
@@ -55,7 +58,6 @@ def ask_test(move):
 
 def show(config):
     board = config.board
-    colorama.init()
     print("")
     print("     A   B   C   D   E   F   G   H")
     print("")

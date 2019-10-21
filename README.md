@@ -22,9 +22,9 @@ The engine has been tested on 6k games, from Lichess Data Set.
 
 ## How to run it ?
 
-From the folder containing the "chess" folder, run in shell :
+From the root folder, run in shell :
 
-- python -m chess.engine.play
+- python -m engine.play
 
 Each move must be typed in the shell.
 It is executed by the engine if it is valid.
@@ -50,9 +50,9 @@ It has not been trained yet due to a lack of computation power.
 
 ## How to run it ?
 
-From the folder containing the "chess" folder, type in shell :
+From the root folder, run in shell :
 
-- python -m chess.bot.train
+- python -m bot.train
 
 As my engine was not designed for, if you do want to train it, I recommend to use [this chess engine](https://github.com/niklasf/python-chess), which is free and strongly optimized.
 
@@ -68,4 +68,4 @@ As my engine was not designed for, if you do want to train it, I recommend to us
 
 - Train the model with a consequent number of games.
 - Parameter tunning.
-- Implement an Alpha-Beta Pruning and compare both AI. 
+- Implement an Alpha-Beta Pruning and compare both AI.

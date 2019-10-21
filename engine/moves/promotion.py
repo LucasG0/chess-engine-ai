@@ -1,6 +1,6 @@
-from chess.engine.moves.standard_move import StandardMove
-from chess.engine.pieces.queen import Queen
-from chess.engine.state import State
+from engine.moves.standard_move import StandardMove
+from engine.pieces.queen import Queen
+from engine.state import State
 
 # Represents a promotion move. Promoted pawn is auto promotion as a queen.
 class Promotion(StandardMove):

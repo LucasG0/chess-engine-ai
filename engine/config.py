@@ -1,18 +1,18 @@
 import sys
-from chess.engine.pieces.pawn import Pawn
-from chess.engine.pieces.knight import Knight
-from chess.engine.pieces.bishop import Bishop
-from chess.engine.pieces.rook import Rook
-from chess.engine.pieces.queen import Queen
-from chess.engine.pieces.king import King
-from chess.engine.square import Square
-from chess.engine.state import State
-from chess.engine.position import Position
-from chess.engine.moves.standard_move import StandardMove
-from chess.engine.moves.passing import Passing
-from chess.engine.moves.castling import Castling
-from chess.engine.moves.promotion import Promotion
-from chess.engine.utils import *
+from engine.pieces.pawn import Pawn
+from engine.pieces.knight import Knight
+from engine.pieces.bishop import Bishop
+from engine.pieces.rook import Rook
+from engine.pieces.queen import Queen
+from engine.pieces.king import King
+from engine.square import Square
+from engine.state import State
+from engine.position import Position
+from engine.moves.standard_move import StandardMove
+from engine.moves.passing import Passing
+from engine.moves.castling import Castling
+from engine.moves.promotion import Promotion
+from engine.utils import *
 import csv
 import numpy as np
 import random
@@ -185,7 +185,7 @@ class Config(object):
             return True
         return False
 
-    # If valid, returns a pseudo legal move from chess.engine.start and dest positions.
+    # If valid, returns a pseudo legal move from engine.start and dest positions.
     def get_pseudo_legal_move(self, start, dest):
         x1 = start.x
         y1 = start.y
@@ -225,7 +225,7 @@ class Config(object):
             break
         return move
 
-    # Returns a pseudo legal move from chess.engine.start and dest positions.
+    # Returns a pseudo legal move from engine.start and dest positions.
     def create_move(self, start, dest, moving_piece):
         encode = abs(self.board[start.x][start.y].piece.encode)
         if encode == 6 and abs(start.x-dest.x) > 1:

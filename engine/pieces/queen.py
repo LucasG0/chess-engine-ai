@@ -1,7 +1,7 @@
-from chess.engine.pieces.piece import Piece
-from chess.engine.pieces.rook import Rook
-from chess.engine.pieces.bishop import Bishop
-from chess.engine.position import Position
+from engine.pieces.piece import Piece
+from engine.pieces.rook import Rook
+from engine.pieces.bishop import Bishop
+from engine.position import Position
 
 class Queen(Piece):
     def __init__(self, color):

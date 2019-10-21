@@ -1,6 +1,6 @@
-from chess.engine.moves.standard_move import StandardMove
-from chess.engine.pieces.pawn import Pawn
-from chess.engine.state import State
+from engine.moves.standard_move import StandardMove
+from engine.pieces.pawn import Pawn
+from engine.state import State
 
 # Represents a "En passant" move.
 class Passing(StandardMove):

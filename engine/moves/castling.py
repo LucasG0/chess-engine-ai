@@ -1,7 +1,7 @@
-from chess.engine.moves.standard_move import StandardMove
-from chess.engine.state import State
-from chess.engine.pieces.piece import Piece
-from chess.engine.position import Position
+from engine.moves.standard_move import StandardMove
+from engine.state import State
+from engine.pieces.piece import Piece
+from engine.position import Position
 
 # Represents either a king or queen castling, defined by a standard move (king) and an added rook move.
 class Castling(StandardMove):

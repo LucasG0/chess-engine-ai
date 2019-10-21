@@ -1,5 +1,5 @@
-from chess.engine.state import State
-from chess.engine.utils import *
+from engine.state import State
+from engine.utils import *
 
 # Represents a chess move, defined by a start/destination square, and a piece.
 class StandardMove(object):
